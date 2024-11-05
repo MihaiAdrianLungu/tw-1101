@@ -1,0 +1,32 @@
+{
+  "name": "seminar6",
+  "version": "1.0.0",
+  "description": "seminar 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "dev:watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MihaiAdrianLungu/tw-1101.git"
+  },
+  "keywords": [
+    "express",
+    "javascript"
+  ],
+  "author": "Lungu Mihai Adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MihaiAdrianLungu/tw-1101/issues"
+  },
+  "homepage": "https://github.com/MihaiAdrianLungu/tw-1101#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
