@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 User.hasMany(Order, { foreignKey: 'userId' });
 
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'http://127.0.0.1:5500'
 }));
 app.use(express.json());
 
