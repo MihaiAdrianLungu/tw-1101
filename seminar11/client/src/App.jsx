@@ -1,12 +1,17 @@
-import ShowData from "./ShowData"
-import Test from "./Test"
+import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
+import Homepage from './Homepage';
+import Login from './Login';
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <Test />
-      <ShowData />
+      <Router>
+        <Routes>
+            <Route path='/' element={<Homepage/>} />
+            <Route path='/login' element={<Login />} />
+            <Route path='*' element={<div>Page not found</div>} />
+        </Routes>
+      </Router>
     </>
   )
 }
